@@ -6,11 +6,11 @@ The brief was to create a realtime clock in alternative and visually interesting
 [GeeksforGeeks - Basic realtime clock in p5.js](https://www.geeksforgeeks.org/how-to-make-digital-clock-in-p5-js/)
 
 I actually found that my code would work without the visual representation of the clock itself in the background, however, i decided to keep it to ensure it was clear how the time was changing. To keep keep the current time the code:
-
+'
 var sec = second();
 var min = minute();
 var hrs = hour();
-
+'
 was used. These are used to decide when the raindrops fall and to update the time on the clock.
 
 To control how heavy the rain was, i started off by making an if statement to detect a new second or minute. I used this:
