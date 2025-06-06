@@ -20,7 +20,9 @@ I used an if function to set the different types of brush tools/line.
 
 The brush normal creates an ellipse, or a small circle, the brush circle creates a larger circle, the brush line creates a smooth drawing tool which connects the previous and current mouse positions and the brush wiggly creates a shaky line which just randomly offsets the end points, making it look like sprinkles. 
 
-When creating this code, i found the biggest issue i had was creating the line function, i originally wanted it to create a straight line between two points but it ended up creating a smooth line which i found more ideal for a drawing tool so it worked overall. I think if i were to create this again i would make a brush that created a shadow or blurring effect. 
+When creating this code, i found the biggest issue i had was creating the line function, i originally wanted it to create a straight line between two points but it ended up creating a smooth line which i found more ideal for a drawing tool so it worked overall. I orignally had my code in multiple different if statements, however to make the code more effcicent and run better i put it all into one if statement and used else-ifs so it all ran together on the same loop and the brushes didnt overlap eachother and not run. I think if i were to create this again i would make a brush that created a shadow or blurring effect. 
+
+[see my code running here](/Mouse_driven_painting_tool/index.html)
 
 
 
