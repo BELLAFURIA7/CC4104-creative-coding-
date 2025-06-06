@@ -35,7 +35,7 @@ for(let i = drops.length - 1; i >= 0; i--) {
 
 The most difficult part for me was the raindrops actually being drawn. I kept having issues with the raindrops not loading onto the screen. I believe if i were to do this again i would have added a ripple effect when the raindrops landed on the screen to make it look like they were falling into a puddle. My original idea was to have one ripple in the water and have it change intensity for each second, minute, hour, but i wanted to push myself and try something i knew id have a difficult time with. For alot of my work i resorted to the p5.js reference as it helped me to understand where i may have been going wrong with my code.
 
-
+[See the experiment running here](/realtime_clock_2025_06_06_07_05_05/index.html)
 
 
 
