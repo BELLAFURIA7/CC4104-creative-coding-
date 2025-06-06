@@ -30,4 +30,4 @@ function keyPressed() {
 
 Overall, a challenge i faced when creating the code was assigning the beats and ensuring they only scored when the beat was in the target. To solve it after many attempts i made it so the beats position and bounds of the target detected the collision when it moves past. I also struggled with making sure the beat moved across the screen the right amount of times and reset on each loop. I had it where the beat would only go past the screen twice and not loop. If i were to do this again, i think i would like to add a moving target and perhaps add difficulty levels. I could also make it so each beat created a different sound to create a song. 
 
-[see my code running here]
+[see my code running here](/2_player_game/index.html)
