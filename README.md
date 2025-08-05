@@ -4,3 +4,9 @@ This page will document and go through each code experiment in my creative codin
 
 ## Project one - An alternative visual way to represent a realtime clock
 [Project one](project1.md)
+
+## Project two - 
+[Project two](project2.md)
+
+## Project three - 
+[project 3](project3.md)
