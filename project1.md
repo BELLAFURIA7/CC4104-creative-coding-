@@ -6,11 +6,11 @@ The brief was to create a realtime clock in alternative and visually interesting
 [GeeksforGeeks - Basic realtime clock in p5.js](https://www.geeksforgeeks.org/how-to-make-digital-clock-in-p5-js/)
 
 I actually found that my code would work without the visual representation of the clock itself in the background, however, i decided to keep it to ensure it was clear how the time was changing. To keep keep the current time the code:
-
+'
 var sec = second();
 var min = minute();
 var hrs = hour();
-
+'
 was used. These are used to decide when the raindrops fall and to update the time on the clock.
 
 To control how heavy the rain was, i started off by making an if statement to detect a new second or minute. I used this:
@@ -35,7 +35,7 @@ for(let i = drops.length - 1; i >= 0; i--) {
 
 The most difficult part for me was the raindrops actually being drawn. I kept having issues with the raindrops not loading onto the screen. I believe if i were to do this again i would have added a ripple effect when the raindrops landed on the screen to make it look like they were falling into a puddle. My original idea was to have one ripple in the water and have it change intensity for each second, minute, hour, but i wanted to push myself and try something i knew id have a difficult time with. For alot of my work i resorted to the p5.js reference as it helped me to understand where i may have been going wrong with my code.
 
-
+[See the experiment running here](/realtime_clock_2025_06_06_07_05_05/index.html)
 
 
 
